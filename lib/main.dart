@@ -8,6 +8,7 @@ import 'View_Show_Hide/view_show_hide.dart';
 import 'cart_screen/cart_screen.dart';
 import 'delivery_track_timeline/timeline_component.dart';
 import 'demo_screen.dart';
+import 'mercury_text/mercury_text.dart';
 import 'multiple_choice/your_meal_screen.dart';
 
 void main() {
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CartScreen(),
+      home: const FlutterMarqueeText(),
     );
   }
 }
