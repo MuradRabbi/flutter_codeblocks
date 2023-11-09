@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 
 
 
-class ImageSlider extends StatefulWidget {
+class CustomImageSlider extends StatefulWidget {
   @override
-  _ImageSliderState createState() => _ImageSliderState();
+  _CustomImageSliderState createState() => _CustomImageSliderState();
 }
 
-class _ImageSliderState extends State<ImageSlider> {
+class _CustomImageSliderState extends State<CustomImageSlider> {
   List<String> images = [
     "https://images.pexels.com/photos/18510514/pexels-photo-18510514/free-photo-of-a-close-up-of-apples-on-a-tree.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "https://images.pexels.com/photos/18684565/pexels-photo-18684565/free-photo-of-old-tenements-in-city.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
@@ -121,24 +121,7 @@ class _ImageSliderState extends State<ImageSlider> {
                         ),
                         child: Icon(Icons.arrow_forward_ios, size: 20, color: Colors.red,),
                       ),
-
                     ),
-                    // IconButton(
-                    //   icon: Icon(Icons.arrow_back),
-                    //   onPressed: () {
-                    //     if (currentIndex > 0) {
-                    //       _previousImage();
-                    //     }
-                    //   },
-                    // ),
-                    // IconButton(
-                    //   icon: Icon(Icons.arrow_forward),
-                    //   onPressed: () {
-                    //     if (currentIndex < images.length - 1) {
-                    //       _nextImage();
-                    //     }
-                    //   },
-                    // ),
                   ],
                 ),
               ),
