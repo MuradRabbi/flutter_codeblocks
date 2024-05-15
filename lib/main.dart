@@ -3,6 +3,7 @@ import 'package:fuctional_codeblocs/remember_me/loginScreen.dart';
 import 'package:fuctional_codeblocs/shimmer_effect/shimmerLoader.dart';
 import 'package:fuctional_codeblocs/sliver/sliver_demo.dart';
 
+import 'List&Grid/list_item_change_by_clicking_button.dart';
 import 'StreamBuilder/listwithStreamBuilder.dart';
 import 'View_Show_Hide/view_show_hide.dart';
 import 'cart_screen/cart_screen.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const FlutterMarqueeText(),
+      home: CustomSlider(),
     );
   }
 }
